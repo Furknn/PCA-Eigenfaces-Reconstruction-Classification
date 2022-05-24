@@ -3,7 +3,7 @@ transform_matrix
 
 j=1;
 i=26;
-for r=[10 20 50 100 200 500 1000 1584]
+for r=[5 10 100 150 500 700 1000 1584]
     % Reduce dimensionality
     tmatrix=eigvecs(:,1:r);
 
